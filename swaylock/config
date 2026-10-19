@@ -1,0 +1,33 @@
+
+# Catppuccin Mocha
+color=1e1e2e
+font=monospace
+font-size=24
+
+# Password indicator
+indicator
+indicator-radius=20
+indicator-thickness=3
+
+inside-color=313244
+inside-clear-color=313244
+inside-ver-color=313244
+inside-wrong-color=313244
+
+ring-color=cba6f7
+ring-clear-color=f9e2af
+ring-ver-color=89b4fa
+ring-wrong-color=f38ba8
+
+key-hl-color=a6e3a1
+bs-hl-color=f38ba8
+
+text-color=cdd6f4
+text-clear-color=cdd6f4
+text-ver-color=cdd6f4
+text-wrong-color=f38ba8
+
+line-color=00000000
+separator-color=00000000
+show-failed-attempts
+

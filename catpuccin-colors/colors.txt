@@ -1,0 +1,5 @@
+Background	#1e1e2e
+Main text	#cdd6f4
+Focus border	#cba6f7
+Secondary accent	#b4befe
+Rosewater accent	#f5e0dc

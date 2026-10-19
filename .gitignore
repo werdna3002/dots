@@ -1,0 +1,38 @@
+# Allowlist: ignore everything in ~/.config, then opt in dotfiles explicitly.
+# New app folders stay untracked until added here, so browser profiles,
+# login tokens and app caches can't sneak into a commit.
+/*
+!/.gitignore
+
+# Desktop
+!/sway/
+!/waybar/
+!/vibepanel/
+!/mako/
+!/fuzzel/
+!/gtklock/
+!/swaylock/
+!/sunsetr/
+!/xdg-desktop-portal/
+!/gtk-3.0/
+
+# Terminal & shell
+!/ghostty/
+!/fish/
+!/nvim/
+!/btop/
+!/htop/
+!/fastfetch/
+!/cava/
+
+# Theming
+!/catpuccin-colors/
+!/spicetify/
+
+# Misc
+!/pavucontrol.ini
+
+# Machine-specific fish state (universal variables can hold tokens)
+/fish/fish_variables
+# Debug logs
+*.log

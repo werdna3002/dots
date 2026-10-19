@@ -1,0 +1,68 @@
+
+/* Catppuccin Mocha — Ghostty GTK menu */
+popover,
+popover > contents,
+menu,
+.menu {
+    background-color: #1e1e2e;
+    color: #cdd6f4;
+    border-color: #45475a;
+}
+
+popover modelbutton,
+.menuitem {
+    color: #cdd6f4;
+    border-radius: 6px;
+    padding: 6px 10px;
+}
+
+popover modelbutton:hover,
+.menuitem:hover {
+    background-color: #45475a;
+    color: #cdd6f4;
+}
+
+popover separator,
+.menu separator {
+    background-color: #45475a;
+}
+
+/* Remove the oversized frame around Ghostty's context menu */
+popover,
+popover > contents,
+popover > arrow,
+popover.menu,
+popover.menu > contents {
+    border: none;
+    box-shadow: none;
+    outline: none;
+}
+
+popover > contents,
+popover.menu > contents {
+    background-color: #1e1e2e;
+    color: #cdd6f4;
+    padding: 4px;
+    border-radius: 10px;
+}
+
+
+/* Rounded Catppuccin Mocha context menu */
+popover,
+popover > contents,
+popover.menu,
+popover.menu > contents {
+    border-radius: 12px;
+    clip-path: inset(0 round 12px);
+    background-color: #1e1e2e;
+    border: 1px solid #45475a;
+    box-shadow: none;
+}
+
+/* Keep menu items rounded on hover */
+popover modelbutton,
+.menuitem {
+    border-radius: 8px;
+    margin: 2px 4px;
+}
+

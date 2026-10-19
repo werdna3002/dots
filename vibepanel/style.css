@@ -1,0 +1,36 @@
+/* Catppuccin Mocha — VibePanel */
+
+.bar {
+    background-color: #1e1e2e;
+}
+
+.widget {
+    background-color: #313244;
+    color: #cdd6f4;
+}
+
+.popover {
+    background-color: #1e1e2e;
+    color: #cdd6f4;
+}
+
+.widget:hover {
+    background-color: #45475a;
+}
+
+button {
+    background-color: #313244;
+    color: #cdd6f4;
+    border-color: #45475a;
+    border-radius: 12px;
+}
+
+button:hover {
+    background-color: #45475a;
+}
+
+button:checked,
+button:active {
+    background-color: #cba6f7;
+    color: #1e1e2e;
+}
